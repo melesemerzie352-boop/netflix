@@ -1,0 +1,39 @@
+.header_outer_continer{
+    position:sticky;
+    top: 0px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+/* background-color: rgb(red green blue / alpha); */
+/* background-color: transparent; */
+height: 10vh;
+color: white;
+transition: all 0.5s;
+transition-timing-function: ease-in;
+z-index: 1;
+background-color:red; 
+}
+
+ui{
+position:absolute;
+top: 20px;
+text-align: center;
+left:20px;
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+}
+.icons{
+    position: relative;
+    left:160px;
+    display: flex;
+    gap: 20px;
+
+}

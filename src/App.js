@@ -1,15 +1,16 @@
 
 import './App.css';
+import Footer from './components/footer/Footer.js';
+import Header from './components/header/Header.js';
 
 function App() {
   return (
-    <div className="App">
+    <div className="">
       <header className="App-header">
         <img  />
-        <p>
-          this  my  first reaact application
-        </p>
         
+        <Header/>
+        <Footer/>
       
       </header>
     </div>
