@@ -23,7 +23,7 @@ const Header = () => {
   <div className="header__search">
   
   {/* <input type="text" placeholder="Search movies..." /> */}
-  <div className="icons">
+  <div className="icons"> 
   <SearchIcon />
   <CircleNotificationsIcon />
   <AccountBoxIcon />
